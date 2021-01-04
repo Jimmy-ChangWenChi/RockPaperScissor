@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BF23355425A19EC3005ED14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23355325A19EC3005ED14F /* AppDelegate.swift */; };
 		BF23355625A19EC3005ED14F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23355525A19EC3005ED14F /* SceneDelegate.swift */; };
-		BF23355825A19EC3005ED14F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23355725A19EC3005ED14F /* ViewController.swift */; };
 		BF23355B25A19EC3005ED14F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF23355925A19EC3005ED14F /* Main.storyboard */; };
 		BF23355D25A19EC5005ED14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF23355C25A19EC5005ED14F /* Assets.xcassets */; };
 		BF23356025A19EC5005ED14F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF23355E25A19EC5005ED14F /* LaunchScreen.storyboard */; };
+		BF23356925A1A011005ED14F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23356825A1A011005ED14F /* MainViewController.swift */; };
+		BF23356C25A1A6F9005ED14F /* rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23356B25A1A6F9005ED14F /* rule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF23355025A19EC3005ED14F /* RockPaperScissor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF23355325A19EC3005ED14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF23355525A19EC3005ED14F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF23355725A19EC3005ED14F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF23355A25A19EC3005ED14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF23355C25A19EC5005ED14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF23355F25A19EC5005ED14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF23356125A19EC5005ED14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF23356825A1A011005ED14F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BF23356B25A1A6F9005ED14F /* rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				BF23355325A19EC3005ED14F /* AppDelegate.swift */,
 				BF23355525A19EC3005ED14F /* SceneDelegate.swift */,
-				BF23355725A19EC3005ED14F /* ViewController.swift */,
 				BF23355925A19EC3005ED14F /* Main.storyboard */,
+				BF23356B25A1A6F9005ED14F /* rule.swift */,
+				BF23356825A1A011005ED14F /* MainViewController.swift */,
 				BF23355C25A19EC5005ED14F /* Assets.xcassets */,
 				BF23355E25A19EC5005ED14F /* LaunchScreen.storyboard */,
 				BF23356125A19EC5005ED14F /* Info.plist */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF23355825A19EC3005ED14F /* ViewController.swift in Sources */,
+				BF23356925A1A011005ED14F /* MainViewController.swift in Sources */,
+				BF23356C25A1A6F9005ED14F /* rule.swift in Sources */,
 				BF23355425A19EC3005ED14F /* AppDelegate.swift in Sources */,
 				BF23355625A19EC3005ED14F /* SceneDelegate.swift in Sources */,
 			);
